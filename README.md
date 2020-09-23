@@ -1,0 +1,2 @@
+# magas_rendelkezesre_allasu_beagyazott_rendszerek
+redundancia, stb
