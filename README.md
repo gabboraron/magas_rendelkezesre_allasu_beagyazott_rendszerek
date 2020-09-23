@@ -1,5 +1,5 @@
 ## EA 2
-Szeretnénk rendelkezésre állást biztosítani akkor is ha bizonyos részeszközök meghibásodnak. Hgoyan eldönthető hogy melyik lesz a hibás?
+Szeretnénk rendelkezésre állást biztosítani akkor is ha bizonyos részeszközök meghibásodnak. Hogyan eldönthető hogy melyik lesz a hibás?
 
 Csak kettős párhuzamosítás esetén nehezen eldönthető, hogy melyiknek lesz igaza, hogy melyik jó, és melyik hibás. Hármas redundancia eetén van egy választó, szavazó áramkör ami megnézi, hogy a két kimeneti érték megegyezik és a harmadikkal is stimmel. A hármas redundancia esetén kettő már nem redundanciát képvisel ebből. => Négyes redundacia esetén jobb értéket kapunk, de többelt energiafogyasztás ([`Termonukleáris generátor`](https://hu.wikipedia.org/wiki/Termoelektromos_gener%C3%A1tor)) és többlet tömeg és hely.
 **Mi van ha a választó áramkör hibásodik meg?** Nagyon egyszerű áramkör, tehát elvileg nem hibásodik meg, elvileg, legalábbsi kicsi a valószínűsége.
