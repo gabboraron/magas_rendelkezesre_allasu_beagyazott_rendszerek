@@ -1,4 +1,4 @@
-## EA 2
+## EA 3
 Szeretnénk rendelkezésre állást biztosítani akkor is ha bizonyos részeszközök meghibásodnak. Hogyan eldönthető hogy melyik lesz a hibás?
 
 Csak kettős párhuzamosítás esetén nehezen eldönthető, hogy melyiknek lesz igaza, hogy melyik jó, és melyik hibás. Hármas redundancia eetén van egy választó, szavazó áramkör ami megnézi, hogy a két kimeneti érték megegyezik és a harmadikkal is stimmel. A hármas redundancia esetén kettő már nem redundanciát képvisel ebből. => Négyes redundacia esetén jobb értéket kapunk, de többelt energiafogyasztás ([`Termonukleáris generátor`](https://hu.wikipedia.org/wiki/Termoelektromos_gener%C3%A1tor)) és többlet tömeg és hely.
@@ -10,3 +10,8 @@ Csak kettős párhuzamosítás esetén nehezen eldönthető, hogy melyiknek lesz
 ### Öndiagnosztizáló rendszer
 > Két egységet egyként kezelünk, majd az abból alkult új egységeket párosítjuk és egy összehasonlító egységre kötjük, ebből egymás mellé teszünk hármat és azt kötjük be a választó áramkörbe. 
 > Ugyanakkor ha beadjuk a pontosságát a rendszerbe, akkor már ki tudjuk válassztani, hogy melyik egységet szeretnénk használni.
+
+## EA 4
+> *watch dog* rendszer az mikor felügyeljük, hogy megfelelően működik-e az alkalmazott rendszer, ha például egy számlálót használunk amit minden ciklusban növelünk és időnként nullázzuk, ha nem nulláztuk túlcsordul, ha túlcsordult akkor hiba van, és reset kell.
+**Hibrid redundáns rendszerek** 
+Két vevőt alkalmazva szelektorral választunk köztük, de az egészet ki is hagyhatjuk, ha ügyesen tervezzük meg a rendszert.
