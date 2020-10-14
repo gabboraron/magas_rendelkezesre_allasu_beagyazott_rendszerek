@@ -15,3 +15,27 @@ Csak kettős párhuzamosítás esetén nehezen eldönthető, hogy melyiknek lesz
 > *watch dog* rendszer az mikor felügyeljük, hogy megfelelően működik-e az alkalmazott rendszer, ha például egy számlálót használunk amit minden ciklusban növelünk és időnként nullázzuk, ha nem nulláztuk túlcsordul, ha túlcsordult akkor hiba van, és reset kell.
 **Hibrid redundáns rendszerek** 
 Két vevőt alkalmazva szelektorral választunk köztük, de az egészet ki is hagyhatjuk, ha ügyesen tervezzük meg a rendszert.
+
+# EA5
+**Hibrid redundáns rendszerek vezérlő választása**
+- lehet nem programozható hardware
+- lehet egy programozható processzor, pl [FPGA](https://github.com/gabboraron/ujrakonfiguralhato_digitalis_aramkorok) vagy a kimeneteket konfigurálható áramkör.
+Nem eldönthető, hogy melyik jobb vagyg rosszabb.
+
+**Univerzális HW rendszerek**
+CPU - CHIPSET - FPGA
+
+https://es.scribd.com/doc/110301633/Asic-Smith
+
+- az intel xeon is támogat FPGA kommunikációt: https://www.intel.com/content/www/us/en/programmable/solutions/acceleration-hub/overview.html
+- ezzel csökkenthetőek a hibák
+- két féle FPGA gyártás módszer:
+  - a kapcsolat ott van, ha nem kell megszüntetjük -> nem érzékeny sugárzásra, viszont csak egyszer lehet átprogramozni, mert azokat a kapcsolatokat ami nem kell kiégeti véglegesen
+  - a kapcsolat nincs ott de ha kell összekötjük  -> pl űrszonda esetében, vagy bármilyen más sugárzó környezet mellett nem használható
+- analóg rendszereeknél [analóg programozható áramkörökkel - FPAA](https://en.wikipedia.org/wiki/Field-programmable_analog_array)val valósíthaó meg
+
+**Hátrányt jelenthet a rednundancia**
+- 2 magasan elhelyezett hajtóműves gépnél, ha leáll az egyik akkor egy irányba kezdhet forogni a gép
+- 4 kis teljesítményű hajtómű a tömgeközéppont közelében 
+- 2 nagy teljesítményű hajtóműnél 
+
