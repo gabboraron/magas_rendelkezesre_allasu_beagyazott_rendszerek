@@ -39,3 +39,8 @@ https://es.scribd.com/doc/110301633/Asic-Smith
 - 4 kis teljesítményű hajtómű a tömgeközéppont közelében 
 - 2 nagy teljesítményű hajtóműnél 
 
+# EA 6
+
+https://www.tinkercad.com/ használata
+
+# EA 7
