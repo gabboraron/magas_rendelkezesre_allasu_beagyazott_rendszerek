@@ -44,3 +44,4 @@ https://es.scribd.com/doc/110301633/Asic-Smith
 https://www.tinkercad.com/ használata
 
 # EA 7
+https://github.com/gabboraron/magas_rendelkezesre_allasu_beagyazott_rendszerek/blob/master/redundacia.brd
