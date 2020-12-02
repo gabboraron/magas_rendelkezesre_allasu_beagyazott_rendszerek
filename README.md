@@ -45,3 +45,8 @@ https://www.tinkercad.com/ használata
 
 # EA 7
 https://github.com/gabboraron/magas_rendelkezesre_allasu_beagyazott_rendszerek/blob/master/redundacia.brd
+
+## ZH kidolgozások
+A **többségi elven működő redundáns egységek** egy időben működnek, de kimenőjeleik a szavazóegységbe kerülnek. A szavazóegység a bemenetére érkező információt kiértékelve a többségi elv alapján képezi a kimenőinformációt. E megoldás esetén a szavazóegység azt az információt adja ki a kimenetén, amely legalább két modulnál megegyezik a 8.1b ábra szerinti módon.
+![8.1b ábra](https://regi.tankonyvtar.hu/hu/tartalom/tamop425/2011_0001_531_programirany/images/fgr_8_1.png)
+
